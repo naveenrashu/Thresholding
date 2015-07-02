@@ -1,0 +1,16 @@
+﻿Build started 7/2/2015 8:04:56 PM.
+     1>Project "D:\Image_Project\Project\Thresholding\Thresholding\Thresholding.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(117): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Image_Project\Project\Thresholding\x64\Release\Thresholding.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenCv\build\x64\vc11\lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Image_Project\Project\Thresholding\x64\Release\Thresholding.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Image_Project\Project\Thresholding\x64\Release\Thresholding.lib" /MACHINE:X64 x64\Release\main.obj
+         Generating code
+         Finished generating code
+         Thresholding.vcxproj -> D:\Image_Project\Project\Thresholding\x64\Release\Thresholding.exe
+     1>Done Building Project "D:\Image_Project\Project\Thresholding\Thresholding\Thresholding.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.21
